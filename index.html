@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="mt-14">
+        <div class="container mx-auto">
+            <div class="discount-area border-4 border-rose-500 rounded-lg p-10 mx-80">
+                <div class="discount-content text-center">
+                    <p class="text-slate-500">Shopping Cart Discount Area</p>
+                    <h2 class="text-5xl font-semibold py-4">Total Price: $<span id="price-value" class="text-rose-500">500</span></h2>
+                    <p class="text-lg py-3">Enter code 'DOM' to get 30% discount of total cost</p>
+                </div>
+                <div class="voucher-area">
+                    <input id="discount-field" class="w-full block border-2 border-rose-500 rounded-lg px-8 py-2 my-4" type="text" placeholder="Enter voucher code here">
+                    <button id="discount-btn" class="w-full text-2xl rounded-lg text-center bg-rose-200  hover:bg-rose-500 text-rose-700 hover:text-white duration-700 py-2">Discount</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="discount.js"></script>
+</body>
+</html>
